@@ -16,3 +16,7 @@ console.log(" ")
 for(x in codeAuthor){
     console.log(x)
 }
+
+for(x in codeAuthor){
+    console.log(x+" : "+codeAuthor[x])
+}
