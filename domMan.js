@@ -29,21 +29,37 @@
 // console.warn("I'm the warning.");
 // console.debug("this is deubg");
 
-let choice = parseInt(prompt("1.Google 2.Facebook 3.X 4.LinkedIn"));
-switch (choice) {
-  case 1:
-    location.href = "https://www.google.com/";
-    break;
-  case 2:
-    location.href = "https://www.fb.com/";
-    break;
-  case 3:
-    location.href = "https://www.x.com/";
-    break;
-  case 4:
-    location.href = "https://linkedin.com/";
-    break;
-  default:
-    document.write("no choice made!");
-    break;
-}
+//location.href
+
+// let choice = parseInt(prompt("1.Google 2.Facebook 3.X 4.LinkedIn"));
+// switch (choice) {
+//   case 1:
+//     location.href = "https://www.google.com/";
+//     break;
+//   case 2:
+//     location.href = "https://www.fb.com/";
+//     break;
+//   case 3:
+//     location.href = "https://www.x.com/";
+//     break;
+//   case 4:
+//     location.href = "https://linkedin.com/";
+//     break;
+//   default:
+//     document.write("no choice made!");
+//     break;
+// }
+
+//chaning NavBar first element to red text
+
+// using document.getElementsByClassName()
+var first = document.getElementsByClassName("theme")[0];
+first.style.color = "red";
+var second = document.getElementsByClassName("theme")[1];
+second.style.color = "blue";
+
+// using array constructor and form
+
+// Array.from(document.getElementsByTagName("li")).forEach((value) => {
+//   value.style.background = "yellow";
+// });
